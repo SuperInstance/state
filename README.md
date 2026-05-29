@@ -1,11 +1,18 @@
 # state
 
-State management utilities for the Cocapn fleet.
+**State management patterns for the SuperInstance ecosystem** — shared state machines, transition definitions, and persistence patterns.
 
-Part of the [SuperInstance](https://github.com/SuperInstance) ecosystem.
+## What's Here
 
-## Related
+- State machine definitions for agent lifecycles
+- Transition validation and event sourcing patterns
+- Shared state persistence utilities
+- Cross-agent state coordination schemas
 
-- [forgemaster](https://github.com/SuperInstance/forgemaster)
-- [cocapn-plato](https://github.com/SuperInstance/cocapn-plato)
-- [plato-core](https://github.com/SuperInstance/plato-core)
+## How It Fits
+
+Works with `SmartCRDT` for distributed state and `plato-room` for tile-based state storage.
+
+## License
+
+MIT
